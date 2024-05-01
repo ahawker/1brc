@@ -4,14 +4,14 @@
 
 # Swap (or override) for real dataset.
 #INPUT ?= datasets/measurements.txt
-INPUT  ?= datasets/dev.txt
+INPUT  ?= datasets/1m.txt
 
 .PHONY: clean
 clean: ## Clean up all previously built binaries.
 	@rm -r bin
 
 .PHONY: v1
-v1: run-v1 ## "v1" - A real naiive shit house.
+v1: run-v1 ## "v1" - A real naive shit house.
 
 .PHONY: run-%
 run-%:

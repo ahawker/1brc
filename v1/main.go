@@ -92,5 +92,5 @@ func main() {
 
 	_, _ = sb.WriteString("}")
 
-	fmt.Print(sb.String())
+	fmt.Println(sb.String())
 }

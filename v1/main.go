@@ -35,7 +35,7 @@ func main() {
 		_ = file.Close()
 	}()
 
-	results := make(map[string]sample, 10)
+	results := make(map[string]sample, 10000)
 
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
